@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: aqua;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: chocolate;
+    cursor: progress;
+}
+.main{
+    padding-left: 40%;
+    padding-top: 10%;
+    padding-right: 20%;
+}
+#container{
+    font-size: 80px;
+    font-weight: 600;
+    color: forestgreen;
+}
+button{
+    font-size: 40px;
+    border-radius: 10px;
+}
+#buttons{
+    padding-left: 7%;
+}
+button:hover{
+    color: brown;
+    cursor: pointer;
+}
+p{
+    padding-left: 40%;
+    font-size: 30px;
+    color: red;
+    /* font-style: italic; */
+}
+.link >p{
+    padding-left: 40%;
+    color: orangered;
+}
+[role="presentation"]:hover{
+    color: gray;
+}
